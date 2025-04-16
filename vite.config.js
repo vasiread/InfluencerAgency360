@@ -22,5 +22,8 @@ export default defineConfig({
         generateScopedName: '[name]__[local]___[hash:base64:5]'
       }
     }
+  },
+  preview: {
+    allowedHosts: ['influenceragency360-1.onrender.com'] 
   }
 })
