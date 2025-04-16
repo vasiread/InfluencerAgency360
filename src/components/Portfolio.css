@@ -1,0 +1,177 @@
+.portfolio-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.portfolio-header {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.portfolio-title {
+    margin-bottom: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.portfolio-header-content {
+    display: flex;
+    gap: 5%;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-headline {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: rgba(0, 237, 231, 1);
+}
+
+.portfolio-button {
+    background: rgba(0, 237, 231, 1);
+    padding: 12px 24px;
+    border-radius: 70px;
+    height: 48px;
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    white-space: nowrap;
+}
+
+.portfolio-slider-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-slide {
+    padding: 0 10px;
+}
+
+.slide-image-container {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.slide-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slide-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.slide-title {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.slide-subtitle {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.slide-play-button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio-header-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .portfolio-headline {
+        font-size: 1.5em;
+    }
+
+    .portfolio-slider-container {
+        width: 95%;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-header {
+        padding: 20px 10px;
+    }
+
+    .portfolio-title {
+        font-size: 1.2em;
+    }
+
+    .portfolio-headline {
+        font-size: 1.3em;
+    }
+
+    .portfolio-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .slide-overlay {
+        padding: 6px 10px;
+    }
+
+    .slide-title {
+        font-size: 0.9em;
+    }
+
+    .slide-subtitle {
+        font-size: 0.7em;
+    }
+
+    .slide-play-button {
+        width: 30px;
+        height: 30px;
+    }
+}
