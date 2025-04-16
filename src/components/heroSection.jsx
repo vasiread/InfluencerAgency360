@@ -37,7 +37,7 @@ const HeroSection = () => {
         { logo: BattetBet, name: "Battet Bet" },
         { logo: Iqoption, name: "Iq-option" },
         { logo: PinUp, name: "Pin Up" },
-        { logo: Pocket, name: "Pocket options" },
+        // { logo: Pocket, name: "Pocket options" },
     ];
 
     const clientSliderVariants = {
