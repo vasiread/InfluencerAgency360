@@ -32,7 +32,7 @@ const HeroSection = () => {
     };
 
     const clientsData = [
-        { logo: Win1, name: "1Win" },
+        // { logo: Win1, name: "1Win" },
         { logo: Bet1x, name: "1xBet" },
         { logo: BattetBet, name: "Battet Bet" },
         { logo: Iqoption, name: "Iq-option" },
