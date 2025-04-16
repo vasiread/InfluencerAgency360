@@ -9,7 +9,6 @@ import Background3 from "../assets/portfoilo/background3.mp4";
 import Background4 from "../assets/portfoilo/background4.mp4";
 import Background5 from "../assets/portfoilo/background5.mp4";
 import './Portfolio.css'; // Create this CSS file for custom styles
-import Win1 from "../assets/hero/1win.jpg";
 import Bet1x from "../assets/hero/1xbet.png";
 import BattetBet from "../assets/hero/batterybet.PNG";
 import Iqoption from "../assets/hero/iqoption.PNG";

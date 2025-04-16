@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import Win1 from "../assets/hero/1win.jpg";
 import Bet1x from "../assets/hero/1xbet.png";
 import BattetBet from "../assets/hero/batterybet.PNG";
 import Iqoption from "../assets/hero/iqoption.PNG";
