@@ -13,7 +13,7 @@ import Bet1x from "../assets/hero/1xbet.png";
 import BattetBet from "../assets/hero/batterybet.PNG";
 import Iqoption from "../assets/hero/iqoption.PNG";
 import PinUp from "../assets/hero/pinup.png";
-import Pocket from "../assets/hero/pocket.png";
+// import Pocket from "../assets/hero/pocket.png";
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 const Portfolio = () => {
